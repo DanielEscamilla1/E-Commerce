@@ -244,6 +244,13 @@ input[type="email"] {
     width: 300px;
 }
 
+/* Cart page */
+
+.carttext {
+    width: 100vw;
+    height: 100vh;
+}
+
 /* footer */
 footer {
     /* position: fixed; */
