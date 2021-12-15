@@ -292,3 +292,23 @@ footer {
     background: #125688;
     color: white;
   }
+
+  @media (max-width: 800px){
+    .productContainer{
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .indexcontainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  }
+
+  @media (max-width: 400px){
+    .productContainer{
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .indexcontainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
