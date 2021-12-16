@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #ebecf0;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 1px white;
     font-family: 'Times New Roman', Times, serif;
     
 
@@ -300,7 +300,10 @@ footer {
   .indexcontainer {
     grid-template-columns: repeat(1, 1fr);
   }
-
+    .navigation {
+    flex-direction: column;
+    width: 100%;
+}
   }
 
   @media (max-width: 400px){
