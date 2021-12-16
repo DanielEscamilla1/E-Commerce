@@ -1,11 +1,9 @@
 body{
-    /* background-image: url("background.jpeg"); */
-    /* height: 100vh; */
-    /* background-size: cover; */
-    /* background-position: center; */
     margin: 0;
     padding: 0;
     background-color: #ebecf0;
+    text-shadow: 2px 2px white;
+    font-family: 'Times New Roman', Times, serif;
     
 
 }
@@ -57,6 +55,10 @@ body{
     width: 70% ;
     font-size: 1.3rem;
 }
+.navigation img {
+    height: 7rem;
+    width: auto;
+  }
 /* Hero */
 
 .hero-header {
@@ -66,8 +68,6 @@ body{
     width: 100%;
     font-size: 1.9rem;
     margin-bottom: 450px;
-
-
 }
 
 .hero-header img {
@@ -128,7 +128,6 @@ body{
     flex-direction: column;
     gap: 1rem;
 }
-  
   
 input[type="text"] {
     font-size: 1.3rem;
@@ -199,7 +198,7 @@ input[type="email"] {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1em;
     padding: 2rem;
-    margin: 0;
+    margin: 0; 
 }
 
 .productsh1{
@@ -220,7 +219,7 @@ input[type="email"] {
     padding: 1em;
     border: 2px solid white;
     border-radius: 20px;
-    
+    box-shadow: 0rem 0.1rem 0.5rem#212529;
 }
 
 .productContainer a:link,
@@ -253,7 +252,6 @@ input[type="email"] {
 
 /* footer */
 footer {
-    /* position: fixed; */
     padding: 25px;
     width: 100%;
     background-color: darkgray;
@@ -292,6 +290,8 @@ footer {
     background: #125688;
     color: white;
   }
+
+  /* media queires */
 
   @media (max-width: 800px){
     .productContainer{
